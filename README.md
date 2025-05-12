@@ -1,16 +1,33 @@
-# youapp_test_mobileapp
+[![Flutter](https://img.shields.io/badge/Flutter-3.29.1-blue?logo=flutter)](https://flutter.dev)
 
-A new Flutter project.
+## Description
 
-## Getting Started
+This is a Flutter project with GetX state management, Dio for HTTP requests, and form/image handling integration for the YouApp Coding Assessment.
 
-This project is a starting point for a Flutter application.
+## Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Android Studio](https://developer.android.com/studio) recomended or [VS Code](https://code.visualstudio.com/)
+- A device/emulator (Android or iOS)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```shell
+## install package
+flutter pub get
+
+## check for any issue
+flutter doctor
+```
+
+## Running the project
+```shell
+## run the project
+flutter run lib/main.dart
+```
+
+## Intellectual Property
+
+This project was developed as a technical assessment for YouApp.
+
+© Laurentius Kevin Hendrawanto 2025
